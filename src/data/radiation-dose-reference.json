@@ -1,0 +1,218 @@
+{
+    "guide": {
+        "title": "Radiation Dose Reference Guide",
+        "intro": "This guide provides approximate effective radiation doses for common diagnostic imaging procedures. Effective dose is measured in millisieverts (mSv) and is used to estimate the overall impact of radiation exposure on the body. In the tables below, A.E.D. stands for Approximate Effective Dose. The comparison column translates each examination's dose into an equivalent period of natural background radiation exposure, helping patients and clinicians better understand relative dose levels. Actual radiation doses may vary depending on patient size, imaging equipment, and examination protocols."
+    },
+    "regions": [
+        {
+            "id": "abdominal-region",
+            "name": "Abdominal Region",
+            "procedures": [
+                {
+                    "id": "ct-abdomen-and-pelvis",
+                    "name": "CT Abdomen and Pelvis",
+                    "aed": { "display": "7.7", "value": 7.7 },
+                    "comparableBackground": "2.6 years"
+                },
+                {
+                    "id": "ct-abdomen-and-pelvis-with-and-without-contrast",
+                    "name": "CT Abdomen and Pelvis with and without contrast",
+                    "aed": { "display": "15.4", "value": 15.4 },
+                    "comparableBackground": "5.1 years"
+                },
+                {
+                    "id": "ct-colonography",
+                    "name": "CT Colonography",
+                    "aed": { "display": "6", "value": 6 },
+                    "comparableBackground": "2 years"
+                },
+                {
+                    "id": "ivu",
+                    "name": "IVU",
+                    "aed": { "display": "3", "value": 3 },
+                    "comparableBackground": "1 year"
+                },
+                {
+                    "id": "barium-enema",
+                    "name": "Barium Enema",
+                    "aed": { "display": "6", "value": 6 },
+                    "comparableBackground": "2 years"
+                },
+                {
+                    "id": "upper-gi-study-with-barium",
+                    "name": "Upper GI Study with Barium",
+                    "aed": { "display": "6", "value": 6 },
+                    "comparableBackground": "2 years"
+                }
+            ]
+        },
+        {
+            "id": "bone",
+            "name": "Bone",
+            "procedures": [
+                {
+                    "id": "lumbar-spine",
+                    "name": "Lumbar Spine",
+                    "aed": { "display": "1.4", "value": 1.4 },
+                    "comparableBackground": "6 months"
+                },
+                {
+                    "id": "extremity-x-ray",
+                    "name": "Extremity X-ray",
+                    "aed": { "display": "<0.001", "value": 0.0005 },
+                    "comparableBackground": "<3 hours"
+                }
+            ]
+        },
+        {
+            "id": "central-nervous-system",
+            "name": "Central Nervous System",
+            "procedures": [
+                {
+                    "id": "ct-brain",
+                    "name": "CT Brain",
+                    "aed": { "display": "1.6", "value": 1.6 },
+                    "comparableBackground": "7 months"
+                },
+                {
+                    "id": "ct-brain-with-and-without-contrast",
+                    "name": "CT Brain with and without contrast",
+                    "aed": { "display": "3.2", "value": 3.2 },
+                    "comparableBackground": "13 months"
+                },
+                {
+                    "id": "ct-head-and-neck",
+                    "name": "CT Head and Neck",
+                    "aed": { "display": "1.2", "value": 1.2 },
+                    "comparableBackground": "5 months"
+                },
+                {
+                    "id": "ct-spine",
+                    "name": "CT Spine",
+                    "aed": { "display": "8.8", "value": 8.8 },
+                    "comparableBackground": "3 years"
+                }
+            ]
+        },
+        {
+            "id": "chest",
+            "name": "Chest",
+            "procedures": [
+                {
+                    "id": "ct-chest",
+                    "name": "CT Chest",
+                    "aed": { "display": "6.1", "value": 6.1 },
+                    "comparableBackground": "2 years"
+                },
+                {
+                    "id": "ct-lung-cancer-screening",
+                    "name": "CT Lung Cancer Screening",
+                    "aed": { "display": "1.5", "value": 1.5 },
+                    "comparableBackground": "6 months"
+                },
+                {
+                    "id": "chest-x-ray",
+                    "name": "Chest X-ray",
+                    "aed": { "display": "0.1", "value": 0.1 },
+                    "comparableBackground": "10 days"
+                }
+            ]
+        },
+        {
+            "id": "dental",
+            "name": "Dental",
+            "procedures": [
+                {
+                    "id": "dental-x-ray",
+                    "name": "Dental X-ray",
+                    "aed": { "display": "0.005", "value": 0.005 },
+                    "comparableBackground": "1 day"
+                },
+                {
+                    "id": "panoramic-x-ray",
+                    "name": "Panoramic X-ray",
+                    "aed": { "display": "0.025", "value": 0.025 },
+                    "comparableBackground": "3 days"
+                },
+                {
+                    "id": "cone-beam-ct",
+                    "name": "Cone Beam CT",
+                    "aed": { "display": "0.18", "value": 0.18 },
+                    "comparableBackground": "22 days"
+                }
+            ]
+        },
+        {
+            "id": "heart",
+            "name": "Heart",
+            "procedures": [
+                {
+                    "id": "coronary-cta",
+                    "name": "Coronary CTA",
+                    "aed": { "display": "8.7", "value": 8.7 },
+                    "comparableBackground": "3 years"
+                },
+                {
+                    "id": "cardiac-ct-calcium-scoring",
+                    "name": "Cardiac CT Calcium Scoring",
+                    "aed": { "display": "1.7", "value": 1.7 },
+                    "comparableBackground": "6 months"
+                },
+                {
+                    "id": "non-cardiac-cta",
+                    "name": "Non Cardiac CTA",
+                    "aed": { "display": "5.1", "value": 5.1 },
+                    "comparableBackground": "<2 years"
+                }
+            ]
+        },
+        {
+            "id": "mens-imaging",
+            "name": "Men's Imaging",
+            "procedures": [
+                {
+                    "id": "mens-dexa",
+                    "name": "DEXA",
+                    "aed": { "display": "0.001", "value": 0.001 },
+                    "comparableBackground": "3 hours"
+                }
+            ]
+        },
+        {
+            "id": "nuclear-medicine",
+            "name": "Nuclear Medicine",
+            "procedures": [
+                {
+                    "id": "pet-ct-whole-body",
+                    "name": "PET/CT Whole Body",
+                    "aed": { "display": "22.7", "value": 22.7 },
+                    "comparableBackground": "7.6 years"
+                }
+            ]
+        },
+        {
+            "id": "womens-imaging",
+            "name": "Women's Imaging",
+            "procedures": [
+                {
+                    "id": "womens-dexa",
+                    "name": "DEXA",
+                    "aed": { "display": "0.001", "value": 0.001 },
+                    "comparableBackground": "3 hours"
+                },
+                {
+                    "id": "screening-digital-mammography",
+                    "name": "Screening Digital Mammography",
+                    "aed": { "display": "0.28", "value": 0.28 },
+                    "comparableBackground": "34 days"
+                },
+                {
+                    "id": "3d-mammogram",
+                    "name": "3D Mammogram",
+                    "aed": { "display": "0.34", "value": 0.34 },
+                    "comparableBackground": "42 days"
+                }
+            ]
+        }
+    ]
+}
