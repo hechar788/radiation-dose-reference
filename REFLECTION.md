@@ -10,7 +10,7 @@
 
 ## How I used AI tooling
 
-I used Claude Code as the main implementation tool and worked through the build step by step: tooling and scaffolding first, then the UI primitives, the dataset, the app shell, the explainer cards, the tables, and finally the documentation. At each step I made the architecture and product calls, like the TanStack stack, shadcn/ui, the file structure, and what each section should do. The agent wrote the code. That covered extracting the PDF tables into JSON, scaffolding the project, building the components, and writing the Jest tests.
+I used Claude Code as the main implementation tool and worked through the build step by step: tooling and scaffolding first, then the UI primitives, the dataset, the app shell, the explainer cards, the tables, and finally the documentation and deployment. At each step I made the architecture and product calls, like the TanStack stack, shadcn/ui, the file structure, and what each section should do. The agent wrote the code. That covered extracting the PDF tables into JSON, scaffolding the project, building the components, and writing the Jest tests.
 
 Before moving on I reviewed the diffs in GitHub Desktop and checked the rendered result in the browser. Where the review only called for small tweaks, like copy or styling nudges, I made the changes myself. Anything larger I fed back to the agent with direction on what to change. The real improvements came from that loop, not the first pass. The table columns originally sized themselves to their content and drifted out of line between tables. The explainer cards carried step numbers that did not fit what they actually were. Some copy was bloated. I also had the agent restructure away from a pages directory when I noticed it did not match TanStack Router conventions, and rewrite the git history so each test sits in the same commit as the code it covers.
 
@@ -29,6 +29,5 @@ Getting the dataset into a typed JSON file first paid off. The tables, badges, s
 - **Detail pages for each procedure** using the router that is already in place, with room for longer plain language explanations.
 - **A visual dose comparison**, such as a horizontal bar for each procedure scaled against background radiation. That communicates magnitude better than numbers alone.
 - **Touch and screen reader passes.** The flip cards should become static cards on touch devices, with title and content shown together, and how the content gets announced needs a proper audit.
-- **Deployment** to a static host like GitHub Pages so reviewers can use the app without running it locally.
 
 *This application is part of a technical assessment exercise and is not intended for clinical use, diagnosis, treatment, or medical decision making.*

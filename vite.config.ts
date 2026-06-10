@@ -6,6 +6,8 @@ import { defineConfig } from 'vite';
 
 // https://vite.dev/config/
 export default defineConfig({
+    // BASE_PATH is set by the GitHub Pages workflow, local dev and builds serve from the root.
+    base: process.env.BASE_PATH ?? '/',
     plugins: [tanstackRouter({ target: 'react', autoCodeSplitting: true }), react(), tailwindcss()],
     resolve: {
         alias: {

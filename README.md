@@ -2,6 +2,8 @@
 
 > **Disclaimer:** This application is part of a technical assessment exercise and is not intended for clinical use, diagnosis, treatment, or medical decision making.
 
+**Live app:** https://hechar788.github.io/radiation-dose-reference/
+
 ## Project Overview
 
 A small patient-facing web application that helps a non-technical user understand radiation dose by imaging procedure. It presents the supplied Radiation Dose Reference Guide dataset in two ways:
@@ -22,6 +24,7 @@ The full dataset from the PDF is consolidated into a single typed JSON file (`sr
 | [Lucide](https://lucide.dev) | Icon set used by shadcn/ui. |
 | [react-intl](https://formatjs.github.io/docs/react-intl/) | All user-facing strings live in co-located `*.i18n.ts` files as message descriptors, so the app is translation-ready. |
 | [tss-react](https://tss-react.dev) | Component-scoped styles in co-located `*.styles.ts` files consumed through a `useStyles` hook. |
+| GitHub Actions + GitHub Pages | Every push to `master` runs the tests, builds the app, and deploys it to the live URL above. |
 
 ### Structure
 
